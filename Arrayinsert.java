@@ -7,8 +7,8 @@ class ArrayInsert{
 		int index=pos-1;
 		//now we will shift elements
 		for(int i=n-1;i>=index;i--){
-		arr[i+1]=arr[i];
-		arr[index]=x;
+			arr[i+1]=arr[i];
+			arr[index]=x;
 		}
 	return (n+1);
 		
